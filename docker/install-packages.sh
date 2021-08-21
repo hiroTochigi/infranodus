@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Install Neo4j
 # From https://neo4j.com/docs/operations-manual/current/installation/linux/debian/

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 DEFAULT_USERNAME="neo4j"
 DEFAULT_PASSWORD="neo4j"

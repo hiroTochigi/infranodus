@@ -1,3 +1,4 @@
+#!/bin/bash
 
 cp /infranodus/config.json.sample /infranodus/config.json
 
