@@ -3,6 +3,7 @@
 cp /infranodus/config.json.sample /infranodus/config.json
 
 # Add three empty files which express includes on runtime
+cd /infranodus
 touch views/statsabove.ejs
 touch views/statsbelow.ejs
 touch views/statsheader.ejs
