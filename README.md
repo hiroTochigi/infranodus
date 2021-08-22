@@ -96,6 +96,14 @@ InfraNodus is built on
 #### Run on the cloud
 To run InfraNodus on the cloud, go to [www.infranodus.com](https://infranodus.com). 
 
+#### Run on the Docker Container
+1. `docker pull hirotochigi/infranodus`
+2. `docker run -p 3000:3000 hirotochigi/infranodus`
+
+You can access the app from http://localhost:3000
+
+To create an account on your local machine, visit http://localhost:3000/signup?invitation=secretcode - replace `secretcode` with the value of `secrets.invitation` in your `config.json`. In this case, please, consider becoming a patron by signing up on [www.infranodus.com](http://infranodus.com) to support the development of this open source tool. Patrons get fast-track support and help on the technical issues of the installation.
+
 
 #### Run directly on your machine
 To use this software you should install Neo4J 3.0 on your local computer.
@@ -115,10 +123,6 @@ Create `statsabove.ejs`, `statsbelow.ejs` and `statsheader.ejs` files in the `/v
 
 Run the application with 
 `node app.js` 
-
-You can access the app from http://localhost:3000
-
-To create an account on your local machine, visit http://localhost:3000/signup?invitation=secretcode - replace `secretcode` with the value of `secrets.invitation` in your `config.json`. In this case, please, consider becoming a patron by signing up on [www.infranodus.com](http://infranodus.com) to support the development of this open source tool. Patrons get fast-track support and help on the technical issues of the installation.
 
 #### Run inside a Vagrant Virtual Machine
 
